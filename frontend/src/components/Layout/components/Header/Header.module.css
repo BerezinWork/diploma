@@ -1,0 +1,5 @@
+.header {
+    height: var(--xl);
+    width: 100%;
+    background-color: var(--color-primary-300);
+}
