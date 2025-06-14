@@ -5,7 +5,7 @@ import { getHotels } from "../thunks/hotelsThunk.js";
 const hotelsSlice = createSlice({
     name: "hotels",
     initialState: {
-        items: [],
+        hotels: [],
         loading: false,
         error: "",
     },
@@ -17,7 +17,7 @@ const hotelsSlice = createSlice({
                 state.error = "";
             })
             .addCase(getHotels.fulfilled, (state, action) => {
-                state.items = action.payload;
+                state.hotels = action.payload;
                 state.loading = false;
             })
             .addCase(getHotels.rejected, (state, action) => {

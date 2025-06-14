@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+}
+
+.controls {
+    display: flex;
+}
+
+.hotels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

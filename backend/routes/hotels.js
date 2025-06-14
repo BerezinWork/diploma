@@ -4,8 +4,8 @@ const fs = require('fs');
 
 router.get('/:id', (req, res) => {
   const db = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
-  const course = db.classes.find(c => c.id === parseInt(req.params.id));
-  if (!course) return res.status(404).json({ message: 'Class not found' });
+  const course = db.hotels.find(c => c.id === parseInt(req.params.id));
+  if (!course) return res.status(404).json({ message: 'Index not found' });
 
   res.json(course);
 });

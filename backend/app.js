@@ -2,18 +2,18 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const authRoutes = require('./auth');
-const searchRoutes = require('./search');
-const classRoutes = require('./classes');
-const destinationsRoutes = require('./destinations');
-const registerRoutes = require('./register');
+const authRoutes = require('./routes/auth');
+const searchRoutes = require('./routes/search');
+const hotelsRoutes = require('./routes/hotels');
+const destinationsRoutes = require('./routes/destinations');
+const registerRoutes = require('./routes/register');
 
 app.use(cors());
 app.use(express.json());
 
 app.use('/auth', authRoutes);
 app.use('/search', searchRoutes);
-app.use('/classes', classRoutes);
+app.use('/hotels', hotelsRoutes);
 app.use('/destinations', destinationsRoutes);
 app.use('/register', registerRoutes);
 

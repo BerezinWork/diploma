@@ -5,7 +5,7 @@ import { getDestinations } from "../thunks/destinationsThunk.js";
 const destinationsSlice = createSlice({
     name: "destinations",
     initialState: {
-        items: [],
+        destinations: [],
         loading: false,
         error: "",
     },
@@ -17,7 +17,7 @@ const destinationsSlice = createSlice({
                 state.error = "";
             })
             .addCase(getDestinations.fulfilled, (state, action) => {
-                state.items = action.payload;
+                state.destinations = action.payload;
                 state.loading = false;
             })
             .addCase(getDestinations.rejected, (state, action) => {

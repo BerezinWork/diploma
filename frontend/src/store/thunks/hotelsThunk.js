@@ -14,7 +14,7 @@ export const getHotels = createAsyncThunk(
 
             if(!res.ok) {
                 const err = await res.json();
-                throw new Error(err.message || "Failed to fetch classes!");
+                throw new Error(err.message || "Failed to fetch hotels!");
             }
 
             return await res.json();

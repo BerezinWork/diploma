@@ -9,11 +9,14 @@ router.post('/', (req, res) => {
   const destination = db.destinations.find(d => d.id === destinationId);
   if (!destination) return res.status(404).json({ message: 'Destination not found' });
 
-  const results = db.classes.filter(
-    c =>
+  const searchQuery = query.toLowerCase();
+
+  const results = db.hotels.filter(c =>
       c.city === destination.label &&
-      (c.title.toLowerCase().includes(query.toLowerCase()) ||
-       c.instructor.toLowerCase().includes(query.toLowerCase()))
+      (
+          (typeof c.name === 'string' && c.name.toLowerCase().includes(searchQuery)) ||
+          (typeof c.adress === 'string' && c.adress.toLowerCase().includes(searchQuery))
+      )
   );
 
   res.json(results);

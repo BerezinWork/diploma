@@ -1,0 +1,16 @@
+@use "../../../../styles/variables" as *;
+
+.card {
+  background-color: white;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 400px;
+
+  h2 {
+    color: $primary-color;
+  }
+  p {
+    line-height: 1.5;
+  }
+}

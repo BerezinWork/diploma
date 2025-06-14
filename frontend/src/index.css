@@ -1,8 +1,14 @@
-*,
-*::after,
-*::before {
+@import "tailwindcss";
+
+html, body {
     margin: 0;
     padding: 0;
+}
+
+@theme {
+    --color-brand: #4fc5a6;
+    --color-brand-primary: #e12383;
+    --color-brand-secondary: #9135cb;
 }
 
 ::-webkit-scrollbar {
