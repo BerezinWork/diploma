@@ -1,0 +1,37 @@
+.headerContainer {
+    width: 100%;
+}
+
+.navigateContainer {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: #1f2937;
+    transition: all 0.3s ease 0s;
+}
+.link:hover {
+    background-color: #7399d0;
+    transform: scale(1.1);
+}
+
+.activeLink {
+    background-color: #dbeafe;
+    color: #893fd7;
+    transform: scale(1.1);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

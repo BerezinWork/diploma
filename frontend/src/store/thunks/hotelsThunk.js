@@ -9,7 +9,7 @@ export const getHotels = createAsyncThunk(
             const res = await fetch(`${API_URL}/search`, {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
-                body: JSON.stringify({ destinationId, query })
+                body: JSON.stringify(destinationId ? { destinationId, query } : {query})
             })
 
             if(!res.ok) {

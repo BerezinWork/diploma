@@ -1,12 +1,20 @@
 .wrapper {
     display: flex;
-}
+    flex-direction: column;
+    gap: 1rem;
 
-.controls {
-    display: flex;
+    padding: 0 15px 0 15px;
+
 }
 
 .hotels {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    align-items: center;
+}
+
+.form {
+    align-self: center;
 }

@@ -6,7 +6,7 @@ const Hotel = ({ hotel }) => {
     const navigate = useNavigate();
 
     const handleNavigate = () => {
-        navigate(`/hotels/${hotel.id}`);
+        navigate(`/booking/hotels/${hotel.id}`);
     }
 
     return (

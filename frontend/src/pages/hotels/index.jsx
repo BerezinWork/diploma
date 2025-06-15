@@ -4,13 +4,12 @@ import { useSelector, useDispatch } from "react-redux";
 import { getHotels } from "../../store/thunks/hotelsThunk.js";
 
 import Hotel from "./components/Hotel";
-
-import { Select, Input, Card, Button } from "antd";
+import Form from "./components/Form";
 
 import styles from "./Hotels.module.css"
 
 const Hotels = () => {
-    const [selectedCity, setSelectedCity] = useState(null);
+    const [selectedCity, setSelectedCity] = useState("all");
     const [searchQuery, setSearchQuery] = useState("");
 
     const dispatch = useDispatch();
@@ -20,28 +19,20 @@ const Hotels = () => {
 
     useEffect(() => {
         if (selectedCity) {
-            dispatch(getHotels({ destinationId: selectedCity, query: searchQuery }));
+            const destinationId = selectedCity === "all" ? null : selectedCity;
+            dispatch(getHotels({ destinationId, query: searchQuery }));
         }
     },[selectedCity, searchQuery]);
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.controls}>
-                <Select
-                    placeholder={"Choose city"}
-                    onChange={value => {setSelectedCity(value)}}
-                >
-                    {destinations.map(city => (
-                        <Select.Option key={city.id} value={city.id}>
-                            {city.label}
-                        </Select.Option>
-                    ))}
-                </Select>
-
-                <Input
-                    placeholder={"Search hotels"}
-                    value={searchQuery}
-                    onChange={e => {setSearchQuery(e.target.value)}}
+            <div className={styles.form}>
+                <Form
+                    destinations={destinations}
+                    selectedCity={selectedCity}
+                    setSelectedCity={setSelectedCity}
+                    searchQuery={searchQuery}
+                    setSearchQuery={setSearchQuery}
                 />
             </div>
 

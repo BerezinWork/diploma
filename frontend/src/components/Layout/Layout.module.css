@@ -1,6 +1,9 @@
 .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
 
+
+.outlet {
     height: 100vh;
 }

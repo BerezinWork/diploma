@@ -12,31 +12,45 @@ import TailWind from "./pages/tailwind-page";
 
 //Components
 import Layout from "./components/Layout";
+import BookingLayout from "./components/BookingLayout";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout />,
+        element: <Layout/>,
         children: [
             {
                 index: true,
                 element: <div>Home</div>
             },
             {
-                path: "hotels",
-                element: <Hotels />,
-                loader: hotelsLoader,
-            },
-            {
-                path: "about-us",
-                element: <AboutUs />,
-                loader: () => {console.log("Loading data"); return "My Data!"}
-            },
-            {
                 path: "*",
                 element: <div>404 page</div>
+            },
+            {
+                path: "/booking",
+                element: <BookingLayout/>,
+                children: [
+                    {
+                        index: true,
+                        element: <div>Booking Home</div>,
+                    },
+                    {
+                        path: "hotels",
+                        element: <Hotels />,
+                        loader: hotelsLoader,
+                    },
+                    {
+                        path: "about-us",
+                        element: <AboutUs />
+                    },
+                    {
+                        path: "*",
+                        element: <div>404 page</div>
+                    }
+                ]
             }
-        ],
+        ]
     },
     {
         path: "/material-page",
