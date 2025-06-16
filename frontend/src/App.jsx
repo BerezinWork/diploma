@@ -6,9 +6,7 @@ import { hotelsLoader } from "./loaders/hotelsLoader.js";
 //Pages
 import Hotels from "./pages/hotels";
 import AboutUs from "./pages/about-us";
-import MaterialPage from "./pages/material-page";
-import AntPage from "./pages/ant-page";
-import TailWind from "./pages/tailwind-page";
+import Resume from "./pages/resume/index.jsx";
 
 //Components
 import Layout from "./components/Layout";
@@ -21,11 +19,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <div>Home</div>
-            },
-            {
-                path: "*",
-                element: <div>404 page</div>
+                element: <Resume/>,
             },
             {
                 path: "/booking",
@@ -49,20 +43,12 @@ const router = createBrowserRouter([
                         element: <div>404 page</div>
                     }
                 ]
-            }
+            },
+            {
+                path: "*",
+                element: <div>404 page</div>
+            },
         ]
-    },
-    {
-        path: "/material-page",
-        element: <MaterialPage />,
-    },
-    {
-        path: "/ant-page",
-        element: <AntPage />,
-    },
-    {
-        path: "/tailwind-page",
-        element: <TailWind />,
     },
 ]);
 
