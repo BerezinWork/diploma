@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
+import useDebounce from "../../hooks/useDebounce.js";
+
 import { getHotels } from "../../store/thunks/hotelsThunk.js";
 
 import Hotel from "./components/Hotel";
@@ -14,15 +16,17 @@ const Hotels = () => {
 
     const dispatch = useDispatch();
 
+    const debouncedQuery = useDebounce(searchQuery);
+
     const { destinations, error, loading } = useSelector(state => state.destinations);
     const { hotels, error: hotelsError, loading: hotelsLoading } = useSelector(state => state.hotels);
 
     useEffect(() => {
         if (selectedCity) {
             const destinationId = selectedCity === "all" ? null : selectedCity;
-            dispatch(getHotels({ destinationId, query: searchQuery }));
+            dispatch(getHotels({ destinationId, query: debouncedQuery }));
         }
-    },[selectedCity, searchQuery]);
+    },[selectedCity, debouncedQuery]);
 
     return (
         <div className={styles.wrapper}>

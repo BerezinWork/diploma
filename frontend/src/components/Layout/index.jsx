@@ -8,7 +8,9 @@ const Layout = () => {
     return(
         <div className={styles.container}>
             <SideBar></SideBar>
-            <Outlet/>
+            <div className={styles.outlet}>
+                <Outlet/>
+            </div>
         </div>
     )
 }

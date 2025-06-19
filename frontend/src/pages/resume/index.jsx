@@ -1,4 +1,3 @@
-import 'antd/dist/reset.css';
 import {
     Row,
     Col,
@@ -254,7 +253,7 @@ const Resume = () => {
                                 </Link>
                             </Space>
                             <Text type="secondary" style={{ paddingTop: '20px' }}>
-                                © {new Date().getFullYear()} Illia Berezin
+                                {new Date().getFullYear()} Illia Berezin
                             </Text>
                         </Space>
                     </footer>

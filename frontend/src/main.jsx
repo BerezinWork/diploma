@@ -4,10 +4,11 @@ import { Provider } from "react-redux";
 
 import { store } from "./store/index.js";
 
+import 'antd/dist/reset.css';
+
 import App from './App.jsx';
 
 import './index.css';
-import './main.scss';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

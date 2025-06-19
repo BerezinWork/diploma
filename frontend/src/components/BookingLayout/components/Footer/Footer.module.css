@@ -1,3 +1,68 @@
 .footerContainer {
+    background-color: var(--booking-header-bg);
+    color: white;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 15px 50px 15px;
+}
+
+.madeBy {
+    color: var(--booking-info-color);
+    text-transform: uppercase;
+}
+.madeBy:not(:first-child) {
+    padding-top: 40px;
+}
+
+.infoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 5px 5px 10px 5px;
+
+    transition: all 0.2s ease 0s;
+
+    position: relative;
+}
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+    background-color: var(--booking-info-color);
+
+    transform: scaleX(0);
+
+    transition: transform 0.3s ease 0s;
+}
+.item:hover::after {
+    transform: scaleX(1);
+}
+
+.link {
+
+}
+.icon svg{
+    width: 25px;
+    height: 25px;
 }

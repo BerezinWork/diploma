@@ -1,0 +1,38 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+
+    transition: all 0.2s ease 0s;
+}
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--booking-info-color);
+    color: var(--booking-header-bg);
+    border: 2px solid var(--booking-info-color);
+}
+.primary:hover {
+    background-color: var(--booking-header-bg);
+    color: var(--booking-info-color);
+}
+
+.secondary {
+    background-color: var(--booking-header-bg);
+    color: var(--booking-info-color);
+    border: 2px solid var(--booking-header-bg);
+}
+.secondary:hover {
+    background-color: var(--booking-info-color);
+    color: var(--booking-header-bg);
+}
+
+@media (max-width: 440px) {
+    .button {
+        padding: 10px 10px;
+    }
+}

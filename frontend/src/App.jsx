@@ -1,10 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 //Loaders
-import { hotelsLoader } from "./loaders/hotelsLoader.js";
+import { hotelsLoader, hotelLoader } from "./loaders/hotelsLoader.js";
 
 //Pages
+import BookingHome from "./pages/bookingHome";
 import Hotels from "./pages/hotels";
+import Hotel from "./pages/hotel";
 import AboutUs from "./pages/about-us";
 import Resume from "./pages/resume/index.jsx";
 
@@ -27,12 +29,18 @@ const router = createBrowserRouter([
                 children: [
                     {
                         index: true,
-                        element: <div>Booking Home</div>,
+                        element: <BookingHome />,
+                        loader: hotelsLoader,
                     },
                     {
                         path: "hotels",
                         element: <Hotels />,
                         loader: hotelsLoader,
+                    },
+                    {
+                        path: "hotels/:id",
+                        element: <Hotel/>,
+                        loader: hotelLoader,
                     },
                     {
                         path: "about-us",

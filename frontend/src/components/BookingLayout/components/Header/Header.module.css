@@ -1,37 +1,107 @@
+
+
 .headerContainer {
     width: 100%;
+
+    background-color: var(--booking-header-bg);
+
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: white;
+
+    padding: 20px;
 }
 
 .navigateContainer {
-    margin: 20px;
     display: flex;
     gap: 20px;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link {
     display: flex;
     align-items: center;
-    gap: 12px;
     padding: 10px 14px;
     border-radius: 5px;
-    color: #1f2937;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 .link:hover {
-    background-color: #7399d0;
+    color: var(--booking-header-bg);
+    background-color: white;
     transform: scale(1.1);
 }
 
 .activeLink {
-    background-color: #dbeafe;
-    color: #893fd7;
+    color: white;
+    background-color: var(--booking-header-bg);
+    border: 2px solid white;
     transform: scale(1.1);
 }
+.activeLink:hover {
+    color: white;
+    background-color: var(--booking-header-bg);
+    cursor: auto;
+}
 
-.icon {
-    width: 20px;
-    height: 20px;
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+
+    object-fit: contain;
+    vertical-align: middle;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.logoLink {
+
+}
+
+.logoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menuContainer {
+
+}
+.menuNav {
+    display: flex;
+
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .headerContainer {
+        font-size: 14px;
+
+        padding: 0 15px 0 15px;
+    }
+}
+@media (max-width: 425px) {
+    .headerContainer {
+        font-size: 14px;
+
+        padding: 0 5px 0 5px;
+    }
+
+    .menuNav {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .link {
+        padding: 5px 10px;
+    }
 }
