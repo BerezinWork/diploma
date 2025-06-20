@@ -18,6 +18,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Layout/>,
+        errorElement: <div>404 New</div>,
         children: [
             {
                 index: true,
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
             {
                 path: "/booking",
                 element: <BookingLayout/>,
+                errorElement: <div>404 New</div>,
                 children: [
                     {
                         index: true,
@@ -56,7 +58,11 @@ const router = createBrowserRouter([
                 path: "*",
                 element: <div>404 page</div>
             },
-        ]
+        ],
+    },
+    {
+        path: "*",
+        element: <div>404 page</div>
     },
 ]);
 

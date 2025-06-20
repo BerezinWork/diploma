@@ -17,7 +17,10 @@ export async function hotelLoader({ params }) {
         }
 
         return res.json();
-    } catch(e) {
-        return e.message;
+    } catch(err) {
+        throw new Response("Network Error or Server Down", {
+            status: 503,
+            statusText: err.message
+        });
     }
 }

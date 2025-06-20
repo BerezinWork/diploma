@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router";
 import PropTypes from "prop-types";
 
-import { Card, Button } from "antd";
+import Button from "../../../../components/UI/atoms/Button";
+
+import styles from "./Hotel.module.css";
 
 const Hotel = ({ hotel }) => {
     const navigate = useNavigate();
@@ -11,17 +13,24 @@ const Hotel = ({ hotel }) => {
     }
 
     return (
-        <Card
-            title={hotel.name}
-            cover={<img alt="Hotel Img" src={hotel.url} />}
-        >
-            <p><strong>Address: </strong>{hotel.address}</p>
-            <p><strong>City: </strong>{hotel.city}</p>
-            <p><strong>State: </strong>{hotel.state}</p>
-            <p><strong>Rating: </strong>{hotel.hotel_rating}</p>
-
-            <Button type="primary" onClick={handleNavigate}>More</Button>
-        </Card>
+        <div className={styles.hotelCard}>
+            <h3 className={styles.title}>{hotel.name}</h3>
+            <div className={styles.hotelImage}>
+                <img alt={hotel.name} src={hotel.url} />
+            </div>
+            <div className={styles.content}>
+                <span>City:</span> <span className={styles.difColor}>{hotel.city}</span>
+                <span>Address:</span> <span className={styles.difColor}>{hotel.address}</span>
+                <span>Rating:</span> <span className={styles.difColor}>{hotel.hotel_rating}</span>
+            </div>
+            <div className={styles.button}>
+                <Button
+                    text="See More"
+                    type="secondary"
+                    onClick={() => handleNavigate}
+                />
+            </div>
+        </div>
     );
 };
 
@@ -29,7 +38,6 @@ Hotel.propTypes = {
     hotel: PropTypes.shape({
         name: PropTypes.string.isRequired,
         city: PropTypes.string.isRequired,
-        state: PropTypes.string.isRequired,
         hotel_rating: PropTypes.number.isRequired,
     })
 }

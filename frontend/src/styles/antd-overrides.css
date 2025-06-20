@@ -1,0 +1,84 @@
+.booking-project-wrapper {
+    .ant-select-selection-item,
+    .ant-select-selection-placeholder,
+    .ant-input {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+    }
+
+    .ant-select-focused .ant-select-selector,
+    .ant-select-selector:hover,
+    .ant-input-focused,
+    .ant-input:focus,
+    .ant-input:hover {
+        box-shadow: none !important;
+    }
+
+    .ant-select,
+    .ant-input-wrapper {
+        height: var(--booking-control-height) !important;
+    }
+    .ant-select-selector, .ant-input {
+        height: 100% !important;
+        align-items: center !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .ant-select-arrow .anticon {
+        color: var(--booking-info-color) !important;
+
+        stroke-width: 60 !important;
+        stroke: var(--booking-info-color);
+
+        transition: transform 0.3s ease !important;
+    }
+
+    .ant-select-open .ant-select-arrow .anticon {
+        transform: rotate(180deg) !important;
+    }
+}
+
+
+.ant-select-dropdown {
+    background-color: var(--booking-header-bg) !important;
+    border: 2px solid var(--booking-info-color) !important;
+    border-radius: 16px !important;
+    padding: 8px !important;
+    box-shadow: none !important;
+}
+
+.ant-select-item {
+    color: var(--booking-info-color) !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    border: 2px solid transparent !important;
+    margin: 4px 20px 4px 0 !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-selected) {
+    background-color: var(--booking-info-color) !important;
+    color: var(--booking-header-bg) !important;
+    font-weight: 700 !important;
+}
+
+.ant-select-item-option-selected {
+    background-color: var(--booking-header-bg) !important;
+
+    color: var(--booking-info-color) !important;
+    font-weight: 700 !important;
+
+    border: 2px solid var(--booking-info-color) !important;
+}
+
+.ant-select-item-option-selected .ant-select-item-option-state {
+    display: none !important;
+}
+
+.rc-virtual-list-scrollbar-thumb {
+    background: var(--booking-info-color) !important;
+}

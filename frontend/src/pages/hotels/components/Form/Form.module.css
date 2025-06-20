@@ -1,6 +1,46 @@
 .formContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    width: 100%;
 
-    gap: 1rem;
+    background-color: var(--booking-header-bg);
+    border-radius: 15px 15px 0 0;
+    padding: 20px 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.fieldsGroup {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.fieldWrapper {
+    flex: 1;
+
+    background-color: var(--booking-header-bg);
+    border: 2px solid var(--booking-info-color);
+    border-radius: 12px;
+    height: var(--booking-control-height);
+    position: relative;
+    transition: border-color 0.3s ease;
+}
+.fieldWrapper:hover {
+    border-color: white;
+}
+
+
+.fieldWrapper:first-child {
+    flex: 0 0 30%;
+}
+.fieldWrapper:last-child {
+    flex: 1;
+}
+
+.select,
+.input {
+    width: 100%;
+    height: 100%;
 }

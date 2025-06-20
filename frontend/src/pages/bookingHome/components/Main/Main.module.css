@@ -1,4 +1,3 @@
-
 .container {
     display: flex;
     align-items: center;
@@ -10,7 +9,6 @@
     gap: 5%;
 }
 
-/*-----------------*/
 .collageContainer {
     flex-basis: 50%;
     display: grid;

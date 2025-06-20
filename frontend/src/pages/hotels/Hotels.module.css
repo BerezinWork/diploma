@@ -1,17 +1,45 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 
     color: var(--booking-text-color);
+
+    font-family: var(--booking-font-family), sans-serif;
+}
+
+.title {
+    margin: 50px 0 0 0;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 50px;
+    font-weight: 700;
+
+    color: #ffffff;
+    background-color: var(--booking-header-bg);
+    padding: 30px 100px ;
+    border-radius: 100px 15px 100px 15px;
+}
+.title span {
+    color: var(--booking-info-color);
+    text-transform: uppercase;
 }
 
 .hotels {
+    margin: 50px 0 50px 0;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
 
 .form {
-    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    margin-bottom: 50px;
 }

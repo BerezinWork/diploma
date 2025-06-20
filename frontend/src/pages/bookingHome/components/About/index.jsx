@@ -9,15 +9,19 @@ const About = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.title}>
-                <h2>Crafted with <span>Passion</span>, Built with <span>Code</span></h2>
-            </div>
+            <h2 className={styles.title}>
+                <div className={styles.titleFirstColumn}>
+                    <div>Crafted with</div>
+                    <div>Built with</div>
+                </div>
+                <div className={styles.titleSecondColumn}>
+                    <div>Passion</div>
+                    <div>Code</div>
+                </div>
+            </h2>
             <div className={styles.text}>
-                <p>
+                <p className={styles.textBlock}>
                     This "Home Sweet Home" project is more than just a booking platform. It's a developer's journey into creating beautiful, user-centric digital experiences. Crafted by Illia Berezin, this application serves as a testament to what's possible when passion for code meets thoughtful design.
-                </p>
-                <p>
-                    The application is built from the ground up using a modern React stack. State management is powerfully handled by Redux Toolkit, ensuring predictable and scalable data flow. Seamless client-side navigation is implemented with React Router, while all visual components are custom-built using CSS Modules to maintain a unique and consistent design system without relying on external UI libraries.
                 </p>
             </div>
             <div className={styles.button}>

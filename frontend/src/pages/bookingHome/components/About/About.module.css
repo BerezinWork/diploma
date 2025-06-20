@@ -1,26 +1,69 @@
 .container {
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-
+    color: white;
+    background-color: var(--booking-header-bg);
+    border-radius: 100px 100px 0 0;
 }
-
 
 .title {
+    font-size: 45px;
+    line-height: 1.2;
 
-}
-.title h2 {
+    margin: 0;
+    font-weight: 700;
 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
+.titleFirstColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.titleSecondColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    text-transform: uppercase;
+    color: var(--booking-info-color);
+}
+
 
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    max-width: 750px;
+}
+.text:not(:first-child) {
+    padding-top: 30px;
 }
 
-.button {
+.textBlock {
+    text-indent: 1.5em;
 
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.5;
+}
+.button {
+    font-size: 30px;
+    font-weight: 700;
+}
+.button:not(:first-child) {
+    padding-top: 30px;
 }
