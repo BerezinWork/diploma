@@ -107,22 +107,24 @@
       "name": "Woogo Central Park - Tempo Apartments",
       "address": "240 West 73rd Street",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "18005740835",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1731190019544-8a8c658699e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       "id": 11003176,
       "name": "Amolite Hotel",
       "address": "Avenida Curitiba, 811",
       "city": "New York",
-      "state": null,
+      "state": "NY",
       "country_code": "BR",
       "hotel_rating": 0,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1744217429991-be448a6d4203?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 747134,
@@ -133,7 +135,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "212260414",
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1661963123153-5471a95b7042?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 720550,
@@ -144,7 +147,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "1 212 2191018",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1625771255136-aafe2a4c38cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 797074,
@@ -155,7 +159,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1636522622624-9836617a92d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 742987,
@@ -166,7 +171,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1694475093159-e06df2f4cf3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 743452,
@@ -177,7 +183,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "1-212-398-2700",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 260469,
@@ -188,7 +195,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "1 212 777-0012",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 740399,
@@ -199,7 +207,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1531743001864-5b07b75f8e79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxob3RlbCUyMG5ldyUyMHlvcmt8ZW58MHwwfDB8fHww"
     },
     {
       "id": 5018104,
@@ -210,7 +219,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "XX",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1568502227933-8eaef02050b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 792811,
@@ -221,7 +231,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1733457231048-73916960c1b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 804220,
@@ -232,7 +243,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1566393943037-399380229304?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTd8fGhvdGVsJTIwbmV3JTIweW9ya3xlbnwwfDB8MHx8fDA%3D"
     },
     {
       "id": 386689,
@@ -243,7 +255,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1697730037237-cf245340b170?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjBib3N0b258ZW58MHwwfDB8fHww"
     },
     {
       "id": 567484,
@@ -254,7 +267,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1577996134143-9442c7843851?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBib3N0b258ZW58MHwwfDB8fHww"
     },
     {
       "id": 677300,
@@ -265,7 +279,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1717169374015-59602fb929c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjBib3N0b258ZW58MHwwfDB8fHww"
     },
     {
       "id": 820605,
@@ -276,7 +291,8 @@
       "country_code": "US",
       "hotel_rating": null,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1694475235522-cc4f9b9de015?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBib3N0b258ZW58MHwwfDB8fHww"
     },
     {
       "id": 731189,
@@ -287,18 +303,20 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1694475434235-12413ec38b3e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjBib3N0b258ZW58MHwwfDB8fHww"
     },
     {
       "id": 721848,
-      "name": "Stunning 4BR in Downtown Crossing by Sonder",
+      "name": "Stunning 4BR in Downtown by Sonder",
       "address": "Hamilton Place",
       "city": "Boston",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1577566037163-5efa44cdc30d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwYm9zdG9ufGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 677341,
@@ -309,7 +327,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1691138472938-9c71df7e17d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwYm9zdG9ufGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 677347,
@@ -320,18 +339,20 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1577566037163-5efa44cdc30d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwYm9zdG9ufGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 810445,
-      "name": "Sophisticated 2BR in Downtown Crossing by Sonder",
+      "name": "Sophisticated 2BR by Sonder",
       "address": "Boylston Street",
       "city": "Boston",
       "state": "MA",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1694475423949-9685bb4fa0bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdGVsJTIwYm9zdG9ufGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 1000001,
@@ -342,7 +363,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "404-555-0101",
-      "website": "https://peachtreeplaza.com"
+      "website": "https://peachtreeplaza.com",
+      "url": "https://plus.unsplash.com/premium_photo-1676430686642-ad03791cae09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWwlMjBpbiUyMGF0bGFudGF8ZW58MHwwfDB8fHww"
     },
     {
       "id": 1000002,
@@ -353,7 +375,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "404-555-0102",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1694056590800-003c4fe6785d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBpbiUyMGF0bGFudGF8ZW58MHwwfDB8fHww"
     },
     {
       "id": 1000003,
@@ -364,7 +387,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "404-555-0103",
-      "website": "https://buckheadinn.com"
+      "website": "https://buckheadinn.com",
+      "url": "https://images.unsplash.com/photo-1494948858638-8f2f3be0ef78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWwlMjBpbiUyMGF0bGFudGF8ZW58MHwwfDB8fHww"
     },
     {
       "id": 1000004,
@@ -375,7 +399,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1633142253214-3100edb4f670?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG90ZWwlMjBpbiUyMGF0bGFudGF8ZW58MHwwfDB8fHww"
     },
     {
       "id": 1000005,
@@ -386,7 +411,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "404-897-1991",
-      "website": "https://www.thegeorgianterrace.com/"
+      "website": "https://www.thegeorgianterrace.com/",
+      "url": "https://images.unsplash.com/photo-1589811337146-140bdb5f7225?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWwlMjBpbiUyMGF0bGFudGF8ZW58MHwwfDB8fHww"
     },
     {
       "id": 1000006,
@@ -397,7 +423,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1632141021009-a6b6021cde21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwaW4lMjBhdGxhbnRhfGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 1000007,
@@ -408,7 +435,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "470-485-0485",
-      "website": "https://www.hotelclermont.com/"
+      "website": "https://www.hotelclermont.com/",
+      "url": "https://images.unsplash.com/photo-1735568958809-82f7696a276a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsJTIwaW4lMjBhdGxhbnRhfGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 1000008,
@@ -419,7 +447,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "404-658-1830",
-      "website": "https://www.hilton.com/en/hotels/atlmy-canopy-atlanta-midtown/"
+      "website": "https://www.hilton.com/en/hotels/atlmy-canopy-atlanta-midtown/",
+      "url": "https://images.unsplash.com/photo-1696029475645-b43b9f9092cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsJTIwaW4lMjBhdGxhbnRhfGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 1000009,
@@ -430,18 +459,20 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": "404-555-0109",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1722099613205-de0e8f582977?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwaW4lMjBhdGxhbnRhfGVufDB8MHwwfHx8MA%3D%3D"
     },
     {
       "id": 2000001,
-      "name": "Bohemian Hotel Celebration, Autograph Collection",
+      "name": "Bohemian Hotel Celebration",
       "address": "700 Bloom St",
       "city": "Celebration",
       "state": "FL",
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-566-6000",
-      "website": "https://www.marriott.com/en-us/hotels/mcobc-bohemian-hotel-celebration-autograph-collection/"
+      "website": "https://www.marriott.com/en-us/hotels/mcobc-bohemian-hotel-celebration-autograph-collection/",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000002,
@@ -452,7 +483,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-964-7000",
-      "website": "https://www.melia.com/en/hotels/united-states/florida/melia-orlando-celebration"
+      "website": "https://www.melia.com/en/hotels/united-states/florida/melia-orlando-celebration",
+      "url": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000003,
@@ -463,7 +495,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "407-396-7900",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000004,
@@ -474,7 +507,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000005,
@@ -485,7 +519,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "407-555-0205",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1504652517000-ae1068478c59?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000006,
@@ -496,7 +531,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": "https://marketsthotel.com"
+      "website": "https://marketsthotel.com",
+      "url": "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000007,
@@ -507,7 +543,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-555-0207",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1592229505726-ca121723b8ef?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000008,
@@ -518,7 +555,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-396-1311",
-      "website": "https://www.mysticdunesresort.com"
+      "website": "https://www.mysticdunesresort.com",
+      "url": "https://images.unsplash.com/photo-1474690455603-a369ec1293f9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 2000009,
@@ -529,7 +567,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": "407-997-6900",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1600435335786-d74d2bb6de37?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000001,
@@ -540,7 +579,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-851-6480",
-      "website": "https://theedgewoodestate.com"
+      "website": "https://theedgewoodestate.com",
+      "url": "https://images.unsplash.com/photo-1732347210962-c37cb67aabb2?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000002,
@@ -551,7 +591,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1729515748017-093b43088365?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000003,
@@ -562,7 +603,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "407-555-0303",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1642552668086-ba7fb7f894ce?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000004,
@@ -573,7 +615,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1653280675477-878425ecb5f9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000005,
@@ -584,7 +627,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-826-5258",
-      "website": "https://www.wyndhamhotels.com/wingate/"
+      "website": "https://www.wyndhamhotels.com/wingate/",
+      "url": "https://images.unsplash.com/photo-1712237454022-8dfe7ed9c3bf?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000006,
@@ -595,7 +639,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1712830149832-8b43b3854018?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000007,
@@ -606,7 +651,8 @@
       "country_code": "US",
       "hotel_rating": 2,
       "phone_number": "407-555-0307",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1675309474645-f0cb73bf359a?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000008,
@@ -617,7 +663,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-841-1000",
-      "website": "https://www.hilton.com/en/embassy/"
+      "website": "https://www.hilton.com/en/embassy/",
+      "url": "https://images.unsplash.com/photo-1710010911419-42d93bcf12a8?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 3000009,
@@ -628,7 +675,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "407-555-0309",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1650903885540-813f5062ed8d?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000001,
@@ -639,7 +687,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-555-0401",
-      "website": "https://thegothainn.com"
+      "website": "https://thegothainn.com",
+      "url": "https://plus.unsplash.com/premium_photo-1733306455377-2ef61e873f69?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000002,
@@ -650,7 +699,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1593685738244-13382e0f8526?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000003,
@@ -661,7 +711,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-445-9977",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1655698037962-2ce1a9a01d2e?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000004,
@@ -672,7 +723,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1688466339297-4a65503b30c8?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000005,
@@ -683,7 +735,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-573-1000",
-      "website": "https://www.marriott.com/en-us/hotels/mcoof-fairfield-inn-and-suites-orlando-ocoee/"
+      "website": "https://www.marriott.com/en-us/hotels/mcoof-fairfield-inn-and-suites-orlando-ocoee/",
+      "url": "https://images.unsplash.com/photo-1597214130686-00592759c603?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000006,
@@ -694,7 +747,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "407-555-0406",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1718346837371-0bff1c5c9715?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000007,
@@ -705,7 +759,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1733342515327-e15b5cec3c4d?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000008,
@@ -716,7 +771,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-675-2000",
-      "website": "https://www.lakenonawavehotel.com"
+      "website": "https://www.lakenonawavehotel.com",
+      "url": "https://images.unsplash.com/photo-1746954698670-f0585a434c44?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 4000009,
@@ -727,7 +783,8 @@
       "country_code": "US",
       "hotel_rating": 2,
       "phone_number": "407-555-0409",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1636353503718-4284c320d07b?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000001,
@@ -738,7 +795,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "863-588-3432",
-      "website": "https://www.balmoralresortflorida.com/"
+      "website": "https://www.balmoralresortflorida.com/",
+      "url": "https://plus.unsplash.com/premium_photo-1747810785439-8f81bb27fd5f?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000002,
@@ -749,7 +807,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "863-421-4126",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1600728032295-06c028bb5a20?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000003,
@@ -760,7 +819,8 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "phone_number": "863-422-8061",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1600815877486-bb7cd1077bc4?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000004,
@@ -771,7 +831,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1601879637528-1ef3222cd832?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000005,
@@ -782,7 +843,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "863-422-7511",
-      "website": "https://www.grenelefe.com"
+      "website": "https://www.grenelefe.com",
+      "url": "https://images.unsplash.com/photo-1415301918039-3a58086adf06?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000006,
@@ -793,18 +855,20 @@
       "country_code": "US",
       "hotel_rating": 2,
       "phone_number": "863-422-4991",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1711030714348-ca24acdeab3b?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000007,
-      "name": "Ramada by Wyndham Davenport Orlando-South",
+      "name": "Ramada by Wyndham Davenport Orlando",
       "address": "40950 US-27",
       "city": "Haines City",
       "state": "FL",
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "863-424-2120",
-      "website": "https://www.wyndhamhotels.com/ramada/"
+      "website": "https://www.wyndhamhotels.com/ramada/",
+      "url": "https://images.unsplash.com/photo-1655941109914-e9820ccecaf6?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000008,
@@ -815,7 +879,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": null,
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1655686069935-b909d263adae?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 5000009,
@@ -826,7 +891,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "863-555-0509",
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1672097247893-4f8660247b1f?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000001,
@@ -837,7 +903,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "310-276-2251",
-      "website": "https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/"
+      "website": "https://www.dorchestercollection.com/en/los-angeles/the-beverly-hills-hotel/",
+      "url": "https://images.unsplash.com/photo-1725653221349-e08cf3b0aca9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000002,
@@ -848,7 +915,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "213-612-0021",
-      "website": "https://freehandhotels.com/los-angeles/"
+      "website": "https://freehandhotels.com/los-angeles/",
+      "url": "https://images.unsplash.com/photo-1741613389779-51a8bd31c194?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000003,
@@ -859,7 +927,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "310-620-9990",
-      "website": "https://www.properhotel.com/santa-monica/"
+      "website": "https://www.properhotel.com/santa-monica/",
+      "url": "https://images.unsplash.com/photo-1744165036966-dc7dd76b2d1f?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000004,
@@ -870,7 +939,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "323-856-1970",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1541753464332-08b3ebf7f993?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000005,
@@ -881,7 +951,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "213-381-7411",
-      "website": "https://www.thelinehotel.com/los-angeles/"
+      "website": "https://www.thelinehotel.com/los-angeles/",
+      "url": "https://plus.unsplash.com/premium_photo-1742439630401-d730f1018ae8?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000006,
@@ -892,7 +963,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "310-396-4559",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1648598207474-4b243d02d8f2?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000007,
@@ -903,7 +975,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "213-806-1000",
-      "website": "https://www.properhotel.com/downtown-la/"
+      "website": "https://www.properhotel.com/downtown-la/",
+      "url": "https://images.unsplash.com/photo-1687798129348-e9fcbca563eb?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000008,
@@ -914,7 +987,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "323-654-7100",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1589233042906-642ad5f8581a?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 6000009,
@@ -925,7 +999,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "213-623-3233",
-      "website": "https://acehotel.com/los-angeles/"
+      "website": "https://acehotel.com/los-angeles/",
+      "url": "https://images.unsplash.com/photo-1622212152237-e93948c8077b?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000001,
@@ -936,7 +1011,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "305-538-2000",
-      "website": "https://www.fontainebleau.com/miami-beach"
+      "website": "https://www.fontainebleau.com/miami-beach",
+      "url": "https://plus.unsplash.com/premium_photo-1678240508014-d1ab7345bfe6?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000002,
@@ -947,7 +1023,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "305-712-7000",
-      "website": "https://www.easthotels.com/en/miami/"
+      "website": "https://www.easthotels.com/en/miami/",
+      "url": "https://images.unsplash.com/photo-1718585322553-a77879e06ad5?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000003,
@@ -958,7 +1035,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "305-520-6000",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1653795163971-f0f9c9027033?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000004,
@@ -969,7 +1047,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "305-674-1701",
-      "website": "https://book.ennismore.com/hotels/sls-hotels/south-beach"
+      "website": "https://book.ennismore.com/hotels/sls-hotels/south-beach",
+      "url": "https://images.unsplash.com/photo-1543968332-f99478b1ebdc?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000005,
@@ -980,7 +1059,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "786-460-8430",
-      "website": "https://www.lifehousehotels.com/hotels/miami/little-havana"
+      "website": "https://www.lifehousehotels.com/hotels/miami/little-havana",
+      "url": "https://images.unsplash.com/photo-1718606536644-267f71768aa9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000006,
@@ -991,7 +1071,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "305-576-8003",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1583325981638-776a0aed5375?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000007,
@@ -1002,7 +1083,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "305-358-4555",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1578522199427-c82a3ff80b4f?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000008,
@@ -1013,7 +1095,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "305-673-1717",
-      "website": "https://www.standardhotels.com/miami/properties/miami-beach"
+      "website": "https://www.standardhotels.com/miami/properties/miami-beach",
+      "url": "https://images.unsplash.com/photo-1509403960877-1dee2afbd5bb?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 7000009,
@@ -1024,7 +1107,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "305-674-1160",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1748615091941-bdf097a05fb9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000001,
@@ -1035,7 +1119,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "415-772-5000",
-      "website": "https://www.fairmont.com/san-francisco/"
+      "website": "https://www.fairmont.com/san-francisco/",
+      "url": "https://plus.unsplash.com/premium_photo-1681338224373-9669c2497c05?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000002,
@@ -1046,7 +1131,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "415-563-0303",
-      "website": "https://www.viceroyhotelsandresorts.com/zeppelin"
+      "website": "https://www.viceroyhotelsandresorts.com/zeppelin",
+      "url": "https://images.unsplash.com/photo-1698433092113-e8cc2b12c86d?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000003,
@@ -1057,7 +1143,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "510-843-3000",
-      "website": "https://www.claremont-hotel.com/"
+      "website": "https://www.claremont-hotel.com/",
+      "url": "https://plus.unsplash.com/premium_photo-1733288407337-ecb715d424e1?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000004,
@@ -1068,7 +1155,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "415-922-3200",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1677514504767-10298c908758?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000005,
@@ -1079,18 +1167,20 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "415-339-4700",
-      "website": "https://www.cavallopoint.com/"
+      "website": "https://www.cavallopoint.com/",
+      "url": "https://images.unsplash.com/photo-1697070919909-cf154ba3278c?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000006,
-      "name": "The Westin St. Francis San Francisco on Union Square",
+      "name": "The Westin St. Francis",
       "address": "335 Powell St, San Francisco",
       "city": "San Francisco Bay",
       "state": "CA",
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "415-397-7000",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1740774457725-38929be4e8c4?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000007,
@@ -1101,7 +1191,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "415-433-4434",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1706881975836-481551e2b8b0?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000008,
@@ -1112,7 +1203,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "415-896-1600",
-      "website": "https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/"
+      "website": "https://www.marriott.com/en-us/hotels/sfodt-san-francisco-marriott-marquis/",
+      "url": "https://images.unsplash.com/photo-1632430963977-de06ca1c6679?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 8000009,
@@ -1123,7 +1215,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "415-394-0500",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1596692420044-363c12849e8d?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000001,
@@ -1134,7 +1227,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "407-824-3000",
-      "website": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/"
+      "website": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+      "url": "https://images.unsplash.com/photo-1727157258321-07027e2c9e84?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000002,
@@ -1145,7 +1239,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-824-2000",
-      "website": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/"
+      "website": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/",
+      "url": "https://images.unsplash.com/photo-1699078258101-7ce206eef60d?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000003,
@@ -1156,7 +1251,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-824-1000",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1652752447707-d7f8c05c54b5?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000004,
@@ -1167,18 +1263,20 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-938-3000",
-      "website": null
+      "website": null,
+      "url": "https://plus.unsplash.com/premium_photo-1745337150305-a7fadd0fa1f9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000005,
-      "name": "Four Seasons Resort Orlando at Walt Disney World Resort",
+      "name": "Resort at Walt Disney World Resort",
       "address": "10100 Dream Tree Blvd, Lake Buena Vista",
       "city": "Walt Disney World® Resort",
       "state": "FL",
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "407-313-7777",
-      "website": "https://www.fourseasons.com/orlando/"
+      "website": "https://www.fourseasons.com/orlando/",
+      "url": "https://images.unsplash.com/photo-1712830149858-e15f5607f5d1?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000006,
@@ -1189,7 +1287,8 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "phone_number": "407-938-7000",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1712628948530-42c6790309f9?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000007,
@@ -1200,7 +1299,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "407-934-4000",
-      "website": "https://www.swandolphin.com/"
+      "website": "https://www.swandolphin.com/",
+      "url": "https://images.unsplash.com/photo-1641478871261-f79726284a63?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000008,
@@ -1211,7 +1311,8 @@
       "country_code": "US",
       "hotel_rating": 3,
       "phone_number": "407-938-4000",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1645110627554-94aff4afcedf?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 9000009,
@@ -1222,7 +1323,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "407-939-6200",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1599076980652-7ee5b5fd633a?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000001,
@@ -1233,18 +1335,20 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "202-638-6600",
-      "website": "https://www.hayadams.com/"
+      "website": "https://www.hayadams.com/",
+      "url": "https://images.unsplash.com/photo-1706129867468-87a34ce15544?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000002,
-      "name": "Willard InterContinental Washington",
+      "name": "Willard InterContinental",
       "address": "1401 Pennsylvania Ave NW",
       "city": "Washington",
       "state": "DC",
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "202-628-9100",
-      "website": "https://washington.intercontinental.com/"
+      "website": "https://washington.intercontinental.com/",
+      "url": "https://images.unsplash.com/photo-1651636116566-30ef0432a5e3?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000003,
@@ -1255,7 +1359,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "202-448-2300",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1557103165-09cd30553eb6?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000004,
@@ -1266,7 +1371,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "202-682-0111",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1661226613854-d11b18b728f6?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000005,
@@ -1277,7 +1383,8 @@
       "country_code": "US",
       "hotel_rating": 5,
       "phone_number": "844-617-1972",
-      "website": "https://www.thewatergatehotel.com/"
+      "website": "https://www.thewatergatehotel.com/",
+      "url": "https://images.unsplash.com/photo-1723663758069-f62e8a5db92e?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000006,
@@ -1288,7 +1395,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "202-289-7600",
-      "website": "https://www.eatonworkshop.com/hotel/dc"
+      "website": "https://www.eatonworkshop.com/hotel/dc",
+      "url": "https://images.unsplash.com/photo-1655951546852-1667925f4543?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000007,
@@ -1299,7 +1407,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "202-661-2400",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1568730338871-fbcddadf66aa?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000008,
@@ -1310,7 +1419,8 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "phone_number": "202-588-0525",
-      "website": "https://www.thelinehotel.com/washington-dc/"
+      "website": "https://www.thelinehotel.com/washington-dc/",
+      "url": "https://images.unsplash.com/photo-1631696129245-69a7005e0b75?w=500&auto=format&fit=crop&q=60"
     },
     {
       "id": 10000009,
@@ -1321,7 +1431,8 @@
       "country_code": "US",
       "hotel_rating": 4,
       "phone_number": "202-846-5200",
-      "website": null
+      "website": null,
+      "url": "https://images.unsplash.com/photo-1696029475645-b43b9f9092cd?w=500&auto=format&fit=crop&q=60"
     }
   ]
 }

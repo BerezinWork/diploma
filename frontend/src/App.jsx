@@ -8,7 +8,8 @@ import BookingHome from "./pages/bookingHome";
 import Hotels from "./pages/hotels";
 import Hotel from "./pages/hotel";
 import AboutUs from "./pages/about-us";
-import Resume from "./pages/resume/index.jsx";
+import Resume from "./pages/resume";
+import PageNotFound from "./pages/404";
 
 //Components
 import Layout from "./components/Layout";
@@ -18,7 +19,6 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Layout/>,
-        errorElement: <div>404 New</div>,
         children: [
             {
                 index: true,
@@ -27,7 +27,6 @@ const router = createBrowserRouter([
             {
                 path: "/booking",
                 element: <BookingLayout/>,
-                errorElement: <div>404 New</div>,
                 children: [
                     {
                         index: true,
@@ -43,6 +42,7 @@ const router = createBrowserRouter([
                         path: "hotels/:id",
                         element: <Hotel/>,
                         loader: hotelLoader,
+                        errorElement: <PageNotFound />,
                     },
                     {
                         path: "about-us",
@@ -50,19 +50,19 @@ const router = createBrowserRouter([
                     },
                     {
                         path: "*",
-                        element: <div>404 page</div>
+                        element: <PageNotFound />
                     }
                 ]
             },
             {
                 path: "*",
-                element: <div>404 page</div>
+                element: <PageNotFound />
             },
         ],
     },
     {
         path: "*",
-        element: <div>404 page</div>
+        element: <PageNotFound />
     },
 ]);
 

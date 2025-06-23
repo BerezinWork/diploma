@@ -40,6 +40,52 @@
     .ant-select-open .ant-select-arrow .anticon {
         transform: rotate(180deg) !important;
     }
+
+
+    .ant-pagination-item {
+        background-color: transparent !important;
+        border: 2px solid var(--booking-header-bg) !important;
+        border-radius: 8px !important;
+    }
+    .ant-pagination-item:hover {
+        transform: scale(1.05) !important;
+    }
+
+    .ant-pagination-item a {
+        color: var(--booking-header-bg) !important;
+        font-weight: 700 !important;
+    }
+
+    .ant-pagination-item-active {
+        background-color: var(--booking-info-color) !important;
+        color: var(--booking-header-bg) !important;/* Фон активной кнопки */
+        transform: scale(1.15) !important;/* Рамка активной кнопки */
+    }
+    .ant-pagination-item-active:hover {
+        transform: scale(1.15) !important;
+    }
+
+    .ant-pagination-prev .ant-pagination-item-link,
+    .ant-pagination-next .ant-pagination-item-link {
+        background-color: var(--booking-header-bg) !important;
+        border-radius: 50% !important;
+        color: var(--booking-info-color) !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+    }
+
+    .ant-pagination-prev:hover .ant-pagination-item-link,
+    .ant-pagination-next:hover .ant-pagination-item-link {
+        transform: scale(1.05) !important; /* Фон страницы */
+    }
+
+    .ant-pagination-disabled .ant-pagination-item-link {
+        display: none;
+    }
+
+    .ant-pagination-item-ellipsis {
+        color: var(--booking-header-bg) !important;
+    }
 }
 
 

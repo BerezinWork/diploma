@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
 import Button from "../../../../components/UI/atoms/Button";
@@ -15,7 +16,7 @@ const Hotel = ({ hotel }) => {
     return (
         <div className={styles.hotelCard}>
             <h3 className={styles.title}>{hotel.name}</h3>
-            <div className={styles.hotelImage}>
+            <div className={styles.hotelImage} onClick={() => handleNavigate()}>
                 <img alt={hotel.name} src={hotel.url} />
             </div>
             <div className={styles.content}>
@@ -27,7 +28,7 @@ const Hotel = ({ hotel }) => {
                 <Button
                     text="See More"
                     type="secondary"
-                    onClick={() => handleNavigate}
+                    onClick={() => handleNavigate()}
                 />
             </div>
         </div>

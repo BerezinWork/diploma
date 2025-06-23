@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title span {
+    font-size: 140px;
+}

@@ -43,3 +43,37 @@
 .pagination {
     margin-bottom: 50px;
 }
+
+.noResultContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 50px;
+    background-color: var(--booking-header-bg);
+    border-radius: 15px;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.noResultTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--booking-info-color);
+}
+.noResultTitle span{
+    font-size: 85px;
+    color: #ffffff;
+}
+.noResultText {
+    font-size: 18px;
+    font-weight: 500;
+}
+.noResultText span{
+    color: var(--booking-info-color);
+}

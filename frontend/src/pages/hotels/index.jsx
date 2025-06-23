@@ -39,6 +39,10 @@ const Hotels = () => {
         }));
     },[selectedCity, debouncedQuery, currentPage, dispatch]);
 
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [selectedCity, debouncedQuery])
+
     const handlePageChange = (page) => {
         setCurrentPage(page);
     }
@@ -57,23 +61,34 @@ const Hotels = () => {
                 />
             </div>
 
-            <div className={styles.hotels}>
-                {hotels.map(hotel => (
-                    <Hotel
-                        key={hotel.id}
-                        hotel={hotel}
-                    />
-                ))}
-            </div>
+            {!hotelsLoading && hotels.length === 0 && (
+                <div className={styles.noResultContainer}>
+                    <h3 className={styles.noResultTitle}><span>Sorry</span><br/>No Hotels Found</h3>
+                    <p className={styles.noResultText}>We couldn't find any hotels matching your search. <span>Try adjusting your filters.</span></p>
+                </div>
+            )}
 
-            <div className={styles.pagination}>
-                <PaginationBlock
-                    currentPage={currentPage}
-                    totalItems={totalCount}
-                    pageSize={hotelsPerPage}
-                    onPageChange={handlePageChange}
-                />
-            </div>
+            {!hotelsLoading && hotels.length > 0 && (
+                <div className={styles.hotels}>
+                    {hotels.map(hotel => (
+                        <Hotel
+                            key={hotel.id}
+                            hotel={hotel}
+                        />
+                    ))}
+                </div>
+            )}
+
+            {!hotelsLoading && hotels.length > 0 && (
+                <div className={styles.pagination}>
+                    <PaginationBlock
+                        currentPage={currentPage}
+                        totalItems={totalCount}
+                        pageSize={hotelsPerPage}
+                        onPageChange={handlePageChange}
+                    />
+                </div>
+            )}
         </div>
     );
 }
