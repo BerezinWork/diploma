@@ -1,13 +1,21 @@
 import styles from "./Button.module.css";
 
 const Button = ({
+    disabled = false,
+    htmlType = 'button',
     type = 'primary',
     text = 'Click',
-    onClick = () => {
-    }
+    onClick = () => {}
 }) => {
     return (
-        <button className={`${styles[type]} ${styles.button}`} onClick={onClick}>{text}</button>
+        <button
+            disabled={disabled}
+            type={htmlType}
+            className={`${styles[type]} ${styles.button}`}
+            onClick={onClick}
+        >
+            {text}
+        </button>
     )
 }
 export default Button;

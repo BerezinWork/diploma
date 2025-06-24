@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_URL = "http://localhost:4000";
+import { API_URL } from "../../constants/api.js";
 
 export const getHotels = createAsyncThunk(
     "hotels/getHotels",

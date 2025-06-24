@@ -1,0 +1,106 @@
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    color: #ffffff;
+    background-color: var(--booking-header-bg);
+    padding: 100px;
+    border-radius: 50px;
+
+    min-width: 600px;
+}
+
+.title {
+    margin: 0;
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--booking-info-color);
+}
+.title span {
+    color: var(--booking-info-color);
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+
+    width: 100%;
+}
+
+.inputContainer {
+    width: 100%;
+}
+.input {
+    width: 100%;
+
+    color: var(--booking-info-color);
+    border: 2px solid var(--booking-info-color);
+    padding: 15px 30px;
+    border-radius: 8px;
+
+    transition: all 0.2s ease 0s;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+.input:hover {
+    transform: scale(1.05);
+    border-color: #ffffff;
+}
+.input:focus {
+    transform: scale(1);
+
+    border-color: var(--booking-info-color);
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+
+    transition: all 0.2s ease 0s;
+}
+.button:hover {
+    transform: scale(0.95);
+}
+
+.bottomText {
+    width: 100%;
+    text-align: center;
+
+    font-size: 20px;
+}
+.bottomText span {
+    font-weight: 600;
+    color: var(--booking-info-color);
+    text-transform: uppercase;
+}
+
+.errorBox {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #c42828;
+    background-color: #701c1c;
+    border-radius: 8px;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}

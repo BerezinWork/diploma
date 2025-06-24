@@ -1,4 +1,7 @@
-import { NavLink } from "react-router";
+import { NavLink, useNavigate } from "react-router";
+import { useSelector, useDispatch } from "react-redux";
+
+import { logout } from "../../../../store/slices/authSlice.js";
 
 import { bookingRoutes } from "../../../../helpers/bookingRoutes.jsx";
 
@@ -9,6 +12,16 @@ import styles from './Header.module.css';
 
 
 const Header = () => {
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    const isLoggedIn = !!useSelector(state => state.auth.token);
+
+    const handleLogout = () => {
+        dispatch(logout());
+        navigate('/booking');
+    };
+
     return (
         <header className={styles.headerContainer}>
             <div className={styles.navigateContainer}>
@@ -35,10 +48,19 @@ const Header = () => {
                         ))}
                     </nav>
                 </div>
-                <Button
-                    text="Sing Up"
-                    onClick={() => {}}
-                ></Button>
+                <div>
+                    {isLoggedIn ? (
+                        <Button
+                            text="Log Out"
+                            onClick={handleLogout}
+                        ></Button>
+                    ) : (
+                        <Button
+                            text="Sign In"
+                            onClick={() => navigate("/booking/login")}
+                        ></Button>
+                    )}
+                </div>
             </div>
         </header>
     )

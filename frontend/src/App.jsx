@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { hotelsLoader, hotelLoader } from "./loaders/hotelsLoader.js";
 
 //Pages
+import BookingLogin from "./pages/bookingLogin";
+import BookingSignUp from "./pages/bookingSignUp";
 import BookingHome from "./pages/bookingHome";
 import Hotels from "./pages/hotels";
 import Hotel from "./pages/hotel";
@@ -14,6 +16,7 @@ import PageNotFound from "./pages/404";
 //Components
 import Layout from "./components/Layout";
 import BookingLayout from "./components/BookingLayout";
+import PrivateRoute from "./components/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -34,13 +37,25 @@ const router = createBrowserRouter([
                         loader: hotelsLoader,
                     },
                     {
+                      path:"login",
+                      element: <BookingLogin />,
+                    },
+                    {
+                      path:"signup",
+                      element: <BookingSignUp />,
+                    },
+                    {
                         path: "hotels",
                         element: <Hotels />,
                         loader: hotelsLoader,
                     },
                     {
                         path: "hotels/:id",
-                        element: <Hotel/>,
+                        element: (
+                            <PrivateRoute>
+                                <Hotel/>
+                            </PrivateRoute>
+                        ),
                         loader: hotelLoader,
                         errorElement: <PageNotFound />,
                     },
