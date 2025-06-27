@@ -12,7 +12,6 @@ router.post('/signup', (req, res) => {
     name,
     email,
     password,
-    registeredClasses: []
   };
   users.push(newUser);
   res.status(201).json({ id: newUser.id, name: newUser.name, token: `${newUser.id}` });

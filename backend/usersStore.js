@@ -1,10 +1,2 @@
-const users = [
-    {
-        id: "hdjsaghdjashdjas",
-        name: "Test",
-        email: "test@test.com",
-        password: "test",
-        registeredClasses: []
-    }
-];
+const users = [];
 module.exports = users;

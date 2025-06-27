@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100dvh;
 
     background-color: var(--booking-bg-color);
     color: var(--booking-text-color);
@@ -11,11 +11,10 @@
 .outlet {
     flex-grow: 1;
     width: 100%;
+
+    margin: 0 auto;
+
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
 
     display: flex;
     align-items: center;

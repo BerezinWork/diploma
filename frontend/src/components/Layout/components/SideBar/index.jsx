@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { NavLink } from "react-router";
 
 import { sideRoutes } from "../../../../helpers/sideBarRoutes.jsx";
@@ -5,8 +6,18 @@ import { sideRoutes } from "../../../../helpers/sideBarRoutes.jsx";
 import styles from "./SideBar.module.css"
 
 const SideBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <div className={styles.sideBarContainer}>
+        <div className={`${styles.sideBarContainer} ${isOpen ? styles.open : ''}`}>
+            <button
+                className={`${styles.toggleButton} ${isOpen ? styles.open : ''}`}
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span className={styles.bar}></span>
+                <span className={styles.bar}></span>
+                <span className={styles.bar}></span>
+            </button>
             <div className={styles.navigateContainer}>
                 {sideRoutes.map(({ path, icon, label }) => (
                     <NavLink
